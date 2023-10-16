@@ -1,0 +1,22 @@
+number1=input ('Enter number 1')
+number2=input ('Enter number 2')
+print(number1,number2)
+sum=number1+number2
+print(sum)
+sum=int(number2)+int(number1)
+print(sum)
+difference=int(number1)-int(number2)
+print(difference)
+multiplication=int(number1)*(number2)
+print(multiplication)
+division=int(number1)/int(number2)
+print(division)
+number3=input('Enter number 3')
+sum=int(number1)+int(number2)+int(number3)
+difference=int(number1)-int(number2)-int(number3)
+multiplication=int(number1)*int(number2)*int(number3)
+division=int(number1)/int(number2)/int(number3)
+print(sum,difference,multiplication,division)
+import math
+print(math.pow(9,3))
+
